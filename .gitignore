@@ -1,0 +1,21 @@
+# API Keys and Secrets
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local Vector Database (Too large for GitHub)
+data/embeddings/
+
+# Testing/Evals
+.pytest_cache/
+
+# Ignore AWS credentials
+.aws/
+aws/
+
+# Ignore zip files and installers
+*.zip
+awscliv2.zip
