@@ -366,7 +366,7 @@ st.markdown(
 st.markdown(
     """
     <div class='footer'>
-        Built with Streamlit • Designed and Developed by Simbarashe Munatsi
+        Built with Streamlit • Designed and Developed by SimbaraShe Munatsi
     </div>
     """,
     unsafe_allow_html=True

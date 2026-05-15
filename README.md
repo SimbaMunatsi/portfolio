@@ -349,7 +349,6 @@ This project is personal portfolio content. Feel free to use as a template for y
 - [Markdown Guide](https://www.markdownguide.org/)
 
 ---
-
-**Last Updated**: May 2025  
-**Maintained By**: Simbarashe Munatsi  
+ 
+**Maintained By**: SimbaraShe Munatsi  
 **Status**: ✅ Production Ready
