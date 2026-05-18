@@ -233,35 +233,8 @@ with img_col2:
     st.image("./data/resumelens.png", width=350)
     st.markdown("</div>", unsafe_allow_html=True)
 
+
 # PROJECT 1
-st.markdown(
-    """
-    <div class='project-card'>
-        <h3>⚖️ Bumbiro AI — Constitutional RAG Assistant</h3>
-        <p>
-            <a href="https://www.youtube.com/watch?v=AAN0nnhqaPk" target="_blank" style="color: #60a5fa; text-decoration: none; margin-right: 1rem;">🎥 Demo Video</a>
-            <a href="https://bumbiro-ai.streamlit.app" target="_blank" style="color: #60a5fa; text-decoration: none;">🌐 Live MVP</a>
-        </p>
-        <p>
-            Production RAG system built over 3k+ pages of Zimbabwean constitutional and legal documents.
-            Uses hybrid vector retrieval, citation grounding, and FastAPI backend services.
-        </p>
-
-        <ul>
-            <li>Reduced legal research time from hours to minutes, 8hrs->20mins</li>
-            <li>Implemented hybrid vector + BM25 retrieval</li>
-            <li>Dockerized backend with production monitoring</li>
-            <li>Integrated LangSmith tracing and evaluation pipelines</li>
-            <li>Deployed on AWS ECS Fargate with CI/CD pipelines</li>
-        </ul>
-
-        <p><b>Tech Stack:</b> FastAPI, LangChain, PGVector, Docker, OpenAI, LangSmith</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-# PROJECT 2
 st.markdown(
     """
     <div class='project-card'>
@@ -288,6 +261,35 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+# PROJECT 2
+st.markdown(
+    """
+    <div class='project-card'>
+        <h3>⚖️ Bumbiro AI — Constitutional RAG Assistant</h3>
+        <p>
+            <a href="https://www.youtube.com/watch?v=AAN0nnhqaPk" target="_blank" style="color: #60a5fa; text-decoration: none; margin-right: 1rem;">🎥 Demo Video</a>
+            <!-- <a href="https://bumbiro-ai.streamlit.app" target="_blank" style="color: #60a5fa; text-decoration: none;">🌐 Live MVP</a> -->
+        </p>
+        <p>
+            Production RAG system built over 3k+ pages of Zimbabwean constitutional and legal documents.
+            Uses hybrid vector retrieval, citation grounding, and FastAPI backend services.
+        </p>
+
+        <ul>
+            <li>Reduced legal research time from hours to minutes, 8hrs->20mins</li>
+            <li>Implemented hybrid vector + BM25 retrieval</li>
+            <li>Dockerized backend with production monitoring</li>
+            <li>Integrated LangSmith tracing and evaluation pipelines</li>
+            <li>Deployed on AWS ECS Fargate with CI/CD pipelines</li>
+        </ul>
+
+        <p><b>Tech Stack:</b> FastAPI, LangChain, PGVector, Docker, OpenAI, LangSmith</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # ----------------------
 # EXPERIENCE
